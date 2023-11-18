@@ -29,7 +29,7 @@ const Header = () => {
             <a className="text-black" href="">عملائنا</a>
           </div>
         </OutsideClickHandler>
-        <div className="menu-icon mr-44" onClick={() => setOpen((prev) => !prev)}>
+        <div className="menu-icon md:mr-44" onClick={() => setOpen((prev) => !prev)}>
           <MdMenu className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 " size={30} />
         </div>
       <img className="" src="/images/مسار تك.png" alt="logo" width={150} />
