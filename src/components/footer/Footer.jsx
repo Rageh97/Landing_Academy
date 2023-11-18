@@ -395,7 +395,7 @@ const Footer = () => {
         <hr className="mt-16 mb-10 border-gray-200" />
 
         <p className="text-lg font-bold text-center text-indigo-900">
-          © Copyright 2023, كل الجقوق محفوظة بواسطة مسارتك
+          © Copyright 2023, <br/> كل الحقوق محفوظة بواسطة مسارتك
         </p>
       </div>
     </section>
