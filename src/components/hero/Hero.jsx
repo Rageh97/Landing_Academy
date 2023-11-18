@@ -26,7 +26,7 @@ const Hero = () => {
            <span className="secondaryText text-center">اكتشف مسارك التعليمي مع الدورات والشهادات المعتمدة </span>
            <span className="secondaryText text-center">يمكنك التسجيل  حضوريا او اونلاين على منصتنا</span>
          </div>
-         <div className="flexCenter search-bar">
+         <div className="flexCenter search-bar md:p-3">
            <HiLocationMarker color="var(--blue)" size={25} />
            <input type="text" />
            <button className="button">ابحث</button>
