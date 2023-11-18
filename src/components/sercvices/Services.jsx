@@ -13,7 +13,7 @@ const Services = () => {
                 className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
               >
                 <img
-                  src="../../../public/the-future-of-web-development.png"
+                  src="/images/the-future-of-web-development.png"
                   className="block w-full"
                   alt="..."
                 />
@@ -27,7 +27,7 @@ const Services = () => {
                 className="relative float-left hidden -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
               >
                 <img
-                  src="../../../public/124-1247050_digital-marketing-background-png-digital-marketing-banner-png.png"
+                  src="/images/124-1247050_digital-marketing-background-png-digital-marketing-banner-png.png"
                   className="block w-full"
                   alt="..."
                 />

@@ -3,19 +3,19 @@ import "./Blog.css";
 const Blogs = () => {
   const cardList = [
     {
-      img: "../../../public/code.png",
+      img: "/images/code.png",
       title: "web development",
       description:
         "Our group of specialists will collaborate with you to develop a personalized strategy aimed at guiding you toward success through incremental progress.",
     },
     {
-      img: "../../../public/mobile-app.png",
+      img: "/images/mobile-app.png",
       title: "Mobile development",
       description:
         "Offering a diverse range of exercises for your selection, you'll have all the resources necessary to attain the peak of your physical fitness.",
     },
     {
-      img: "../../../public/strategy-development.png",
+      img: "/images/strategy-development.png",
       title: "Digital marketing",
       description:
         "Our team will collaborate with you to craft a tailor-made meal plan designed to assist you in achieving your distinct health objectives.",

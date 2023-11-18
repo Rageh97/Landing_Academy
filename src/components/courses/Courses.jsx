@@ -16,7 +16,7 @@ const Courses = () => {
                 <div className="relative pb-48 overflow-hidden">
                   <img
                     className="absolute inset-0 h-full w-full object-cover"
-                    src="../../../public/360_F_610706475_oBlOtAn4NrWdOT2S0I7xmlBa5Bume6yS.jpg"
+                    src="/images/360_F_610706475_oBlOtAn4NrWdOT2S0I7xmlBa5Bume6yS.jpg"
                     alt=""
                   />
                 </div>
@@ -94,7 +94,7 @@ const Courses = () => {
                 <div className="relative pb-48 overflow-hidden">
                   <img
                     className="absolute inset-0 h-full w-full object-cover"
-                    src="../../../public/download (2).jpeg"
+                    src="/images/download (2).jpeg"
                     alt=""
                   />
                 </div>
@@ -172,7 +172,7 @@ const Courses = () => {
                 <div className="relative pb-48 overflow-hidden">
                   <img
                     className="absolute inset-0 h-full w-full object-cover"
-                    src="../../../public/dataactivationPNG-300x300.png"
+                    src="/images/dataactivationPNG-300x300.png"
                     alt=""
                   />
                 </div>

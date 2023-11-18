@@ -32,7 +32,7 @@ const Header = () => {
         <div className="menu-icon mr-44" onClick={() => setOpen((prev) => !prev)}>
           <MdMenu className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 " size={30} />
         </div>
-      <img className="" src="مسار تك.png" alt="logo" width={150} />
+      <img className="" src="/images/مسار تك.png" alt="logo" width={150} />
       </div>
     
     </section>

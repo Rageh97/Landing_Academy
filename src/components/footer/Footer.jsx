@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
             <img
               className=" h-22"
-              src="../../../public/مسار تك.png"
+              src="/images/مسار تك.png"
               alt=""
               width={200}
             />
