@@ -8,7 +8,7 @@ const Testimonials = () => {
           <div className="text-center">
            
             <h2 className=" text-5xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">
-             عملائنا
+             عملاؤنا
             </h2>
           </div>
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="py-10 bg-gray-50 sm:pt-16 lg:pt-24">
+    <section className="py-10 bg-gray-200 sm:pt-16 lg:pt-24">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
@@ -96,8 +96,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
-              Company
+            <p className="text-lg font-bold tracking-widest text-gray-900 uppercase">
+              روابط سريعة
             </p>
 
             <ul className="mt-6 space-y-4">
@@ -108,7 +108,7 @@ const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  About{" "}
+                  الرئيسية{" "}
                 </a>
               </li>
 
@@ -119,7 +119,7 @@ const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Features{" "}
+                  عن المعهد{" "}
                 </a>
               </li>
 
@@ -130,7 +130,7 @@ const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Works{" "}
+                  فيديوهات تعريفية{" "}
                 </a>
               </li>
 
@@ -141,15 +141,178 @@ const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Career{" "}
+                  الفروع{" "}
                 </a>
               </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                  الدورات القادمة{" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                   اتصل بنا{" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                   المدونة{" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                   خريطة الموقع{" "}
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className="text-lg font-bold tracking-widest text-gray-900 uppercase">
+              روابط سريعة 
+            </p>
+
+            <ul className="mt-6 space-y-4">
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                  سيسكو (Cisco){" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                  ميكروسوفت (Microsoft) {" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                  اوراكل (Oracle){" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                  جونبير (juniper) {" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                 أمن الشبكات {" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                 أمن المعلومات   {" "}
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className="text-lg font-bold tracking-widest text-gray-900 uppercase">
+             طرق التدريب
+            </p>
+
+            <ul className="mt-6 space-y-4">
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                  مدرب يسافر لي{" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                   دورة خاصة{" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                    تدريب عن بعد داخل المعهد{" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {" "}
+                  تدريب اونلاين{" "}
+                </a>
+              </li>
+             
             </ul>
           </div>
 
           <div>
-            <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
-              Help
+            <p className="text-lg font-bold tracking-widest text-gray-900 uppercase">
+              معلومات أخرى
             </p>
 
             <ul className="mt-6 space-y-4">
@@ -160,7 +323,7 @@ const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Customer Support{" "}
+                 رأي المتدربين{" "}
                 </a>
               </li>
 
@@ -171,7 +334,7 @@ const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Delivery Details{" "}
+                  أسئلة متكررة{" "}
                 </a>
               </li>
 
@@ -182,7 +345,7 @@ const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Terms & Conditions{" "}
+                 سياسة الخصوصية والاستخدام{" "}
                 </a>
               </li>
 
@@ -193,15 +356,16 @@ const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Privacy Policy{" "}
+                 اخلاء المسئولية القانونية{" "}
                 </a>
               </li>
             </ul>
           </div>
+          
 
-          <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
-            <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
-              Subscribe to newsletter
+          {/* <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
+            <p className="text-lg font-bold tracking-widest text-gray-900 uppercase">
+              اشترك في النشرة البريدية
             </p>
 
             <form action="#" method="POST" className="mt-6">
@@ -222,16 +386,16 @@ const Footer = () => {
                 type="submit"
                 className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white bg-primary rounded-lg"
               >
-                Subscribe
+                اشترك
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
 
         <hr className="mt-16 mb-10 border-gray-200" />
 
-        <p className="text-sm text-center text-gray-600">
-          © Copyright 2023, All Rights Reserved by MASARTECH
+        <p className="text-lg font-bold text-center text-indigo-900">
+          © Copyright 2023, كل الجقوق محفوظة بواسطة مسارتك
         </p>
       </div>
     </section>
